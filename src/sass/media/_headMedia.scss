@@ -1,0 +1,36 @@
+// @media (max-width: 1200px) {
+
+// }
+// @media (max-width: 992px) {
+
+// }
+@media (max-width: 768px) {
+    .header {
+        background-image: none;
+        background: url(../../img/bgHeader/one.png) no-repeat left/247px;
+        background-size: auto auto;
+        background-position: 50% top;
+        background-color: $color-head;
+
+
+        &__buttons {
+            .btn {
+                margin-top: 8px;
+            }
+        }
+        &__text {
+            font-size: 55px;
+        }
+    }
+}
+@media (max-width: 576px) {
+    .header {
+        margin: 0;
+        border-radius: 0px;
+
+        &__text {
+            font-size: 43px;
+            text-align: center;
+        }
+    }
+}
