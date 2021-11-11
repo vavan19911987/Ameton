@@ -12,7 +12,7 @@
 // 	font-weight: 400;
 // }
 @mixin med {
-	font-family: 'Poppins-Medium', sans-serif;
+	font-family: 'Museo Sans Cyrl 500', sans-serif;
 	font-weight: 500;
 }
 // @mixin sem {
@@ -20,13 +20,13 @@
 // 	font-weight: 600;
 // }
 @mixin bold {
-	font-family: 'Poppins', sans-serif;
+	font-family: 'Museo Sans Cyrl 700', sans-serif;
 	font-weight: 700;
 }
-// @mixin black {
-// 	font-family: '', sans-serif;
-// 	font-weight: 900;
-// }
+@mixin black {
+	font-family: 'Museo Sans Cyrl 900', sans-serif;
+	font-weight: 900;
+}
 // ========ПРИМЕР=======
 // @mixin reg-(сокращение от название) {
 // 	font-family: 'Название шрифта', sans-serif;

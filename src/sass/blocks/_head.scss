@@ -1,0 +1,51 @@
+.header {
+    background-color: $color-head;
+    margin-top: 39px;
+    border-radius: 40px;
+    &__wrapper {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    &__text {
+        font-size: 60px;
+        line-height: 120%;
+        color: $color-head-text;
+        @include black;
+        padding-top: 40px;
+    }
+    &__title {
+        font-size: 17px;
+        line-height: 140%;
+        color: $color-head-text;
+        padding-top: 4px;
+        max-width: 538px;
+        text-align: center;
+
+
+    }
+    &__buttons {
+        margin-top: 40px;
+        padding-bottom: 54px;
+        display: flex;
+        justify-content: space-around;
+
+        .btn {
+            display: flex;
+            align-items: center;
+            padding: 15px 20px;
+            margin-right: 8px;
+            background-color: $color-head-text;
+            border-radius: 12px;
+            img {
+                margin-right: 8px;
+            }
+        }
+
+        .btn:nth-child(3) {
+            padding: 15px 46px;
+        }
+
+    }
+}
