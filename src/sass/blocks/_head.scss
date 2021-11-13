@@ -1,18 +1,18 @@
 .header {
     position: relative;
-    background: url(../../img/bgHeader/one.png)no-repeat left/247px,url(../../img/bgHeader/two.png) no-repeat right/352px;
+    background: url(../../img/bgHeader/one.png) no-repeat left/247px,
+        url(../../img/bgHeader/two.png) no-repeat right/352px;
 
     background-color: $color-head;
     background-size: auto auto;
     background-position: left top 37px, right top 80px;
     margin-top: 39px;
     border-radius: 40px;
-    
+
     &__wrapper {
         display: flex;
         flex-direction: column;
         align-items: center;
-
     }
 
     &__text {
@@ -29,8 +29,6 @@
         padding-top: 2px;
         max-width: 538px;
         text-align: center;
-
-
     }
     &__buttons {
         margin-top: 40px;
@@ -50,14 +48,19 @@
             border-radius: 12px;
             text-align: center;
             margin-top: 4px;
+
             img {
                 margin-right: 8px;
             }
+            p {
+                font-size: 15px;
+                line-height: 120%;
+                // @include bold;
+                font-weight: 600;
+            }
         }
-
     }
 }
 .head {
     overflow: hidden;
-
 }

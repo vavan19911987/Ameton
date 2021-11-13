@@ -1,11 +1,10 @@
 .container {
+    position: relative;
     max-width: 1200px;
     margin: 0 auto;
 }
-
-// .text {
-//     font-size: 60px;
-//     line-height: 120%;
-//     text-align: center;
-//     @include black;
-// }
+.container2 {
+    position: relative;
+    max-width: 996px;
+    margin: 0 auto;
+}
